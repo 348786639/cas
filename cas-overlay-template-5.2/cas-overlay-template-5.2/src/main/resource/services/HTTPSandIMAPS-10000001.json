@@ -1,0 +1,12 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https||http|imaps)://.*",
+  "name" : "HTTPS and IMAPS",
+  "id" : 10000001,
+  "description" : "自定义登陆页面  theme 获取templates/blog/casLoginView.html",
+  "evaluationOrder" : 10000,
+  "theme": "blog",
+  "attributeReleasePolicy": {
+    "@class": "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  }
+}

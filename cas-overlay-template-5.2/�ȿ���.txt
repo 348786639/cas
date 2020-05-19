@@ -1,0 +1,10 @@
+﻿cas单点登录   目前只有登录没有退出
+
+ cas服务器  cas-overlay-template-5.2
+ 
+casclient1 客户端springboot   127.0.0.1：port/index
+casclient2 客户端springboot    127.0.0.1：port/index
+
+cas-sample-java-webapp-master  普通项目的服务器 jsp类型  127.0.0.1：port/index.jsp
+
+cas-sample-java-webapp-master2 普通项目的服务器 jsp类型  127.0.0.1：port/index.jsp
